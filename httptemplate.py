@@ -53,6 +53,7 @@ response = requests.get(url, cookies=jar)
 payload = {'key1': 'value1', 'key2': 'value2'}
 response = requests.get(url, params=payload)
 
+
 # Pass in data in POST request
 payload = {'key1': 'value1', 'key2': 'value2'}
 
